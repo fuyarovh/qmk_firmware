@@ -1,0 +1,5 @@
+#ifdef MIDI_ENABLE
+#    define MIDI_ADVANCED
+#endif
+// #define MATRIX_IO_DELAY 400000
+// #define MATRIX_UNSELECT_DRIVE_HIGH

@@ -1,0 +1,48 @@
+{
+    "manufacturer": "funestia",
+    "keyboard_name": "Organ Setter",
+    "maintainer": "funestia",
+    "bootloader": "rp2040",
+    "processor": "RP2040",
+    "diode_direction": "COL2ROW",
+    "board": "GENERIC_RP_RP2040",
+    "url":"",
+    "features": {
+        "bootmagic": true,
+    },
+    "matrix_pins": {
+        "cols": ["GP20", "GP21", "GP3", "GP2"],
+        "rows": ["GP16", "GP17", "GP22", "GP26", "GP27"]
+    },
+    "usb" : {
+        "device_version" : "1.0.0",
+        "pid": "0x06A0"
+        "vid": "0xFEED"
+    },
+    "layouts": {
+        "LAYOUT_ortho_5x4" : {
+            "layout": [
+                {"matrix": [0, 0], "x": 0, "y": 0},
+                {"matrix": [0, 1], "x": 1, "y": 0},
+                {"matrix": [0, 2], "x": 10, "y": 0},
+                {"matrix": [0, 3], "x": 11, "y": 0},
+                {"matrix": [1, 0], "x": 2, "y": 0},
+                {"matrix": [1, 1], "x": 3, "y": 0},
+                {"matrix": [1, 2], "x": 12, "y": 0},
+                {"matrix": [1, 3], "x": 13, "y": 0},
+                {"matrix": [2, 0], "x": 4, "y": 0},
+                {"matrix": [2, 1], "x": 5, "y": 0},
+                {"matrix": [2, 2], "x": 14, "y": 0},
+                {"matrix": [2, 3], "x": 15, "y": 0},
+                {"matrix": [3, 0], "x": 6, "y": 0},
+                {"matrix": [3, 1], "x": 7, "y": 0},
+                {"matrix": [3, 2], "x": 16, "y": 0},
+                {"matrix": [3, 3], "x": 17, "y": 0},
+                {"matrix": [4, 0], "x": 8, "y": 0},
+                {"matrix": [4, 1], "x": 9, "y": 0},
+                {"matrix": [4, 2], "x": 18, "y": 0},
+                {"matrix": [4, 3], "x": 19, "y": 0}
+            ]
+        }
+    }
+}
